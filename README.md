@@ -31,7 +31,7 @@ For hexadecimal and base64, an "offset" is applied by removing the final *n - 1*
 
 Import the encoding scorer:
 ```js
-import { EncodingScorer } from "./src/encodingScorer.js";
+import EncodingScorer from "encodingScorer-js";
 ```
 
 ### Hexadecimal usage
