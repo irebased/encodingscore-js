@@ -1,6 +1,6 @@
 {
     "name": "encodingscore-js",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A library for scoring encoded text against a provided regex.",
     "author": "irebased <rebased.again@gmail.com>"
 }
