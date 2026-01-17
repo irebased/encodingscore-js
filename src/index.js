@@ -1,3 +1,3 @@
-import { EncodingScorer } from "./encodingScorer";
+import { EncodingScorer } from "./encodingScorer.js";
 
 export default EncodingScorer;
