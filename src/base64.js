@@ -25,6 +25,5 @@ export function scanBase64(s, validByte, re) {
       }
     } catch {}
   }
-
-  return hits;
+  return hits.filter(hit => hit === true);
 }

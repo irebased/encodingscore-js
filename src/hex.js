@@ -20,5 +20,5 @@ export function scanHex(s, validByte, validationRe) {
     }
   }
 
-  return hits;
+  return hits.filter(hit => hit === true);
 }
