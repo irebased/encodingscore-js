@@ -38,9 +38,6 @@ export class EncodingScorer {
 
     validByte(byte, re) {
         try {
-            if (!re.test(byte)) {
-                console.log(`Failed validation: ${byte}`)
-            }
             return re.test(byte);
         } catch {}
     }
